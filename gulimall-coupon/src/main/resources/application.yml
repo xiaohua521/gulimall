@@ -8,7 +8,8 @@ spring:
     url: jdbc:mysql://192.168.111.6:3306/gulimall_sms
 
 mybatis-plus:
-  config-location: classpath:/mapper/**/*.xml
+  mapper-locations: classpath:/mapper/**/*.xml
   global-config:
     db-config:
       id-type: auto
+

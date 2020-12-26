@@ -1,0 +1,14 @@
+server:
+  port: 8905
+spring:
+  datasource:
+    password: root
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.111.6:3306/gulimall_wms
+
+mybatis-plus:
+  config-location: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
